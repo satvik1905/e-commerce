@@ -1,0 +1,15 @@
+.emptyCartMainParent {
+  height: 100rem;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.emptyCartMainParent p {
+  font-size: 35px;
+}
+
+#fs {
+  font-size: 15px !important;
+  display: block !important;
+  visibility: visible !important;
+}

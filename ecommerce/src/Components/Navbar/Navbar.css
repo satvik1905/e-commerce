@@ -3,14 +3,19 @@
 .navbar {
   display: flex;
   justify-content: space-around;
-  padding: 16px;
   box-shadow: 0 1px 3px -2px black;
+  margin: 0;
 }
 
 .nav-logo {
   display: flex;
   align-items: center; /* Align items vertically within the .nav-logo div */
   gap: 10px;
+}
+
+.nav-logo img {
+  width: 200px;
+  height: 200px;
 }
 
 .nav-logo p {

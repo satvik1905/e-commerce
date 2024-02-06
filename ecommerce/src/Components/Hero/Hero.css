@@ -1,6 +1,23 @@
 .hero {
   height: 100vh;
-  background: linear-gradient(180deg, #fde1ff, #e1ffea22);
+  background-color: #0093e9;
+  background: rgb(0, 147, 233);
+  background: -moz-linear-gradient(
+    160deg,
+    rgba(0, 147, 233, 1) 0%,
+    rgba(128, 208, 199, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    160deg,
+    rgba(0, 147, 233, 1) 0%,
+    rgba(128, 208, 199, 1) 100%
+  );
+  background: linear-gradient(
+    160deg,
+    rgba(0, 147, 233, 1) 0%,
+    rgba(128, 208, 199, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0093e9",endColorstr="#80d0c7",GradientType=1);
   display: flex;
 }
 
@@ -15,14 +32,14 @@
 }
 
 .hero-left h2 {
-  color: #090909;
+  color: white;
   font-size: 26px;
   font-weight: 600;
 }
 
 .hero-left p {
-  color: #171717;
-  font-size: 100px;
+  color: white;
+  font-size: 70px;
   font-weight: 700;
 }
 
@@ -36,17 +53,24 @@
   width: 105px;
 }
 
-.hero-latest-button {
+.hero-latest-btn {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   gap: 15px;
-  width: 300px;
+  width: 310px;
   height: 70px;
   border-radius: 75px;
   margin-top: 30px;
-  background-color: #ff4141;
+  background: orange;
   color: white;
   font-size: 22px;
   font-weight: 500;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
